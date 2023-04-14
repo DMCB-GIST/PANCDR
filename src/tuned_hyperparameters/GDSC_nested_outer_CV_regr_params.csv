@@ -1,0 +1,11 @@
+,Best_params
+Fold_0,"{'nz': 100, 'd_dim': 256, 'lr': 0.001, 'lr_adv': 0.001, 'lam': 0.01, 'batch_size': [256, 28]}"
+Fold_1,"{'nz': 100, 'd_dim': 256, 'lr': 0.0001, 'lr_adv': 0.0001, 'lam': 0.01, 'batch_size': [256, 28]}"
+Fold_2,"{'nz': 100, 'd_dim': 128, 'lr': 0.001, 'lr_adv': 0.0001, 'lam': 0.01, 'batch_size': [256, 28]}"
+Fold_3,"{'nz': 128, 'd_dim': 128, 'lr': 0.001, 'lr_adv': 0.001, 'lam': 0.01, 'batch_size': [256, 28]}"
+Fold_4,"{'nz': 128, 'd_dim': 128, 'lr': 0.001, 'lr_adv': 0.0001, 'lam': 0.1, 'batch_size': [256, 28]}"
+Fold_5,"{'nz': 100, 'd_dim': 100, 'lr': 0.001, 'lr_adv': 0.0001, 'lam': 0.1, 'batch_size': [256, 28]}"
+Fold_6,"{'nz': 100, 'd_dim': 256, 'lr': 0.001, 'lr_adv': 0.0001, 'lam': 0.01, 'batch_size': [256, 28]}"
+Fold_7,"{'nz': 256, 'd_dim': 256, 'lr': 0.001, 'lr_adv': 0.001, 'lam': 0.01, 'batch_size': [256, 28]}"
+Fold_8,"{'nz': 100, 'd_dim': 256, 'lr': 0.001, 'lr_adv': 0.001, 'lam': 0.01, 'batch_size': [256, 28]}"
+Fold_9,"{'nz': 100, 'd_dim': 128, 'lr': 0.001, 'lr_adv': 0.0001, 'lam': 0.01, 'batch_size': [256, 28]}"
