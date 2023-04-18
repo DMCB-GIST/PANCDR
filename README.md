@@ -1,6 +1,7 @@
 # PANCDR
 
-PANCDR is precision medicine prediction using an adversary networks for cancer drug response. PANCDR consists of two steps: training the discriminator and training the CDR prediction model. The discriminator reduces the gap between the two datasets while the CDR prediction model extracts features and predicts the response.
+PANCDR is precision medicine prediction using an adversary networks for cancer drug response. PANCDR consists of two steps: training the discriminator and training the CDR prediction model. The discriminator reduces the gap between the two datasets while the CDR prediction model extracts features and predicts the response.  
+Here is the [paper](http://www.pancdrpaper.com).
 
 <img src="https://user-images.githubusercontent.com/44110710/232651050-5d768fde-7de7-47fd-bf80-685173e1bf44.png" width="60%" height="60%"/>
 
