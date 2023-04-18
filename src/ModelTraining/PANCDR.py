@@ -372,7 +372,7 @@ def train_PANCDR_nested_regr(n_outer_splits,data,best_params_file):
             p_val = model.train(best_params, weight_path)
             if p_val != -1: break
         y_pred_TEST = model.predict(test_data[:-1],best_params, weight_path)
-        p_TEST = pearsonr(Y_test.cpu().view(-1).detach().numpy(), y_pred_TEST.view(-1).detach().numpy())
+        p_TEST = pearsonr(Y_test.cpu().view(-1).detach().numpy(), y_pred_TEST.view(-1).detach().numpy())[0]
         temp_test_df = pd.DataFrame([[p_TEST,best_params]], index=['Fold_%d'%outer_fold], columns=['Test_Pearson','Best_params'])
         p_test_df = pd.concat([p_test_df,temp_test_df])
 
