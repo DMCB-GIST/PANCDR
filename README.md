@@ -1,3 +1,3 @@
 # PANCDR
 
-<img src="https://user-images.githubusercontent.com/44110710/232650093-57449f95-894e-459b-a552-e3cc9d0031ff.jpg" width="50%" height="50%"/>
+<img src="https://user-images.githubusercontent.com/44110710/232650750-75479716-fb3e-4e12-b23a-b812fa9fc87c.jpg" width="50%" height="50%"/>
