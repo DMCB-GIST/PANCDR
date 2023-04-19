@@ -42,7 +42,7 @@ First, create a virtual environment and install the requirements.
 Run files in `src/` directory to train the model  
 Here is the example:
 
-    python src/run_PANCDR.py
+    python run_PANCDR.py
 
 - `run_PANCDR.py` - Train PANCDR 100 times with optimal hyperparameters.
 - `run_PANCDR_nested.py` - Train PANCDR using 10-fold outer cross-validation with optimal hyperparameters for each fold.
