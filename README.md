@@ -8,8 +8,9 @@ Here is the [paper](http://www.pancdrpaper.com).
 
 ## Requirements
 
-python == 3.6.10  
-pytorch == 1.10.1
+python==3.6.10  
+pytorch==1.10.1  
+hickle==3.4.5
 
 First, create a virtual environment and install the requirements.
 
