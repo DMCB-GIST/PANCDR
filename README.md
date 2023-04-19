@@ -11,9 +11,10 @@ Here is the [paper](http://www.pancdrpaper.com).
 python == 3.6.10  
 pytorch == 1.10.1
 
-Install the requirements.txt file first.
+Create a virtual environment and install the requirements.
 
-    pip install requirements.txt
+    conda create -n [ENVIRONMENT_NAME] python==3.6.10
+    pip install -r requirements.txt
     
 
 ## Data descriptions
