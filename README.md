@@ -13,7 +13,7 @@ pytorch == 1.10.1
 
 Create a virtual environment and install the requirements.
 
-    conda create -n [ENVIRONMENT_NAME] python==3.6.10
+    conda create -n [ENVIRONMENT NAME] python==3.6.10
     pip install -r requirements.txt
     
 
