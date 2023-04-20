@@ -10,7 +10,7 @@ Here is the [paper](http://www.pancdrpaper.com).
 
 python==3.6.10  
 pytorch==1.10.1  
-hickle==3.4.5
+hickle==3.4.5  
 pandas==1.0.1
 
 First, create a virtual environment and install the requirements.
