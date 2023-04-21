@@ -13,7 +13,7 @@ pytorch==1.10.1
 hickle==3.4.5  
 pandas==1.0.1
 
-First, create a virtual environment and install the requirements.
+Create a virtual environment and install the requirements.
 
     conda create -n [ENVIRONMENT NAME] python==3.6.10
     conda activate [ENVIRONMENT NAME]
