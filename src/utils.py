@@ -25,7 +25,7 @@ def DataGenerate(Drug_info_file,Cell_line_info_file,Drug_feature_file,Gene_expre
     elif dataset.upper() == "TCGA":
         data = T_MetadataGenerate(Drug_info_file,Cell_line_info_file,Drug_feature_file,Gene_expression_file,Cancer_response_exp_file)
     else:
-        print("Please check the dataset. This function works only for \"GDSC\" or \"TCGA\"")
+        print("Please check the dataset. This function only works for \"GDSC\" or \"TCGA\"")
     return data
 
 def DataFeature(data_idx,drug_feature,gexpr_feature,dataset="GDSC"):
@@ -34,7 +34,7 @@ def DataFeature(data_idx,drug_feature,gexpr_feature,dataset="GDSC"):
     elif dataset.upper() == "TCGA":
         data = T_FeatureExtract(data_idx,drug_feature,gexpr_feature)
     else:
-        print("Please check the dataset. This function works only for \"GDSC\" or \"TCGA\"")
+        print("Please check the dataset. This function only works for \"GDSC\" or \"TCGA\"")
     return data
 
 #split into training and test set
