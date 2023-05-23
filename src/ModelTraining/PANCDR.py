@@ -52,8 +52,7 @@ class train_PANCDR():
 
         wait, best_auc = 0, 0
         EN_model = Encoder(X_gexpr_train.shape[1], nz, device)
-        GCN_model = GCN(X_drug_feat_train.shape[2],[256,256,256],h_dims=[d_dim, nz+d_dim],use_dropout=
-        False)
+        GCN_model = GCN(X_drug_feat_train.shape[2],[256,256,256],h_dims=[d_dim, nz+d_dim],use_dropout=False)
         ADV_model = ADV(nz)
         EN_model.to(device)
         GCN_model.to(device)
